@@ -2,7 +2,7 @@
  * BMP390.h
  *
  *  Created on: Oct 20, 2025
- *      Author: bugra
+ *      Author: bugrahan-turkmen
  */
 
 #ifndef INC_BMP390_H_
@@ -49,3 +49,4 @@ void BMP390_Yapilandir(I2C_HandleTypeDef *hi2c);
 float BMP390_Sicaklik_oku(I2C_HandleTypeDef *hi2c);
 float BMP390_Irtifa_Hesapla(I2C_HandleTypeDef *hi2c);
 #endif /* INC_BMP390_H_ */
+
