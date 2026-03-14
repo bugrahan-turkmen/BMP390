@@ -35,7 +35,7 @@ typedef struct{
 	uint16_t Calib_P6;
 	int8_t Calib_P7;
 	int8_t Calib_P8;
-	int8_t Calib_P9;
+	int16_t Calib_P9;
 	int8_t Calib_P10;
 	int8_t Calib_P11;
 	float PAR_Pres[11];
